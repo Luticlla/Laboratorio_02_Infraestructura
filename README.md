@@ -1,6 +1,5 @@
 # Laboratorio 02
-Hoy utilizaremos docker compose para poder desplegar su trabajo. Servicio web y una
-base de datos
+Hoy utilizaremos docker compose para poder desplegar su trabajo. Servicio web y una base de datos
 ## Stack
 - Minimal API
 - Debe retornar un mensaje incluyendo mi nombre
@@ -11,6 +10,12 @@ BD
 - 
 # Indicaciones
 ## Comandos
+```git init``` Para iniciar el repositorio
+
+```git commit -m "" ``` Para hacer los commits convencionales
+
+```git remote add origin https://github.com/Luticlla/Laboratorio_02_Infraestructura.git ``` 
+
 ## Configuración por entorno
 # Creditos
 - Richard Valentin Ticlla Cordova **NRC:285870**
