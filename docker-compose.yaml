@@ -27,6 +27,11 @@ services:
       - MESSAGE=${MESSAGE_3}
     volumes:
       - app3-data:/opt/data
+  pgsql:
+    image: postgres
+    environment: 
+      - POSTGRES_USER=${USUARIOPOSTGRESQL}
+      - POSTGRES_PASSWORD=${CONTRASENAPOSTGRESQL}
 volumes:
   app1-data:
   app2-data:
